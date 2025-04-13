@@ -1,13 +1,12 @@
 //votre code ici
 function printNumbers(n) {
-    let result;
+    let result = '';
 
-    for (i = 1; i <= n; i++) {
-
-        result = i + ' ' 
+    for (let i = 1; i <= n; i++) {
+        result += i + ' ';
     }
 
-    return result
+    return result.trim()
 }
 export default printNumbers
 
